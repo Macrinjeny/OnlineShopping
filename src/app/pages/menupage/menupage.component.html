@@ -1,0 +1,20 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-6 col-12" *ngIf="menuData">
+            <img src="{{menuData[0].dressImg}}" >
+        </div>
+
+        <div class="col-lg-6 col-12">
+            <h1 class="mt-3">{{menuData[0].dressName}}</h1>
+            <p>Quantity: {{menuData[0].dressQuantity}}</p>
+            <p class="price">Price: {{menuData[0].dressPrice | currency :'INR'}}</p>
+            <button class="btn btn-md btn-dark mt-3">Confirm Order</button>
+            <a routerLink="../../menu" class="btn btn-sm btn-dark mt-3 ">Back</a> 
+        
+
+        </div> 
+    </div>
+
+</div>

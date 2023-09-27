@@ -1,0 +1,52 @@
+
+ .dressBox 
+{
+    padding: 10px 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2px 7px 2px 7px;
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+} 
+.dressBox:hover{
+    scale: 1.02; 
+}
+.dressBox img
+{
+    width: 100%;
+    border-radius: 5px; 
+    height: 40rem;
+    object-fit: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.dressBox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+} 
+.dressBox p {
+    font-size: 15px; 
+    /* margin-bottom: 100px; */
+    margin-right: 200px;
+    padding-bottom: 2px;
+}
+.buybtn
+{
+
+    color: #fff;
+    background-color: #000;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}

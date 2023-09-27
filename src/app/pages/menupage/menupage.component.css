@@ -1,0 +1,22 @@
+
+img{
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 70%;
+    height: 700px;
+    object-fit: cover;
+    margin-left: 200px;
+
+}
+
+@media screen and (max-width:600px) {
+    form 
+    {
+        width: 100%;
+    }
+}
+.btn{
+    margin-left: 40px;
+}
+
+

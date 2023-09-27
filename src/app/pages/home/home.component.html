@@ -1,0 +1,21 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5">LET'S EXPLORE <br/> <span>UNIQUE</span> CLOTHES.</h1>
+        <a routerLink="menu"><strong>BUY NOW</strong></a>
+    </div>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">NEW <span class="highlight">ARRIVALS</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let dd of dressData;index as i">
+            <div class="dressbox" *ngIf="i<=3">
+                <img src="{{dd.dressImg}}" />
+                <h1>{{dd.dressName}}</h1>
+                <p>{{dd.dressPrice | currency:'INR'}}</p>
+                <!-- <a class="buybtn" [routerLink]="['/menu',dd.id]">Buy Now</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<a routerLink="menu" class="viewmorebtn">More...</a>

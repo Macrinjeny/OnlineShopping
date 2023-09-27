@@ -1,0 +1,21 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: #000;
+    font-weight: bold;
+    font-size: 110%;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: #000;
+    font-weight: bold;
+    font-size: 110%;
+
+    
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 230%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 2rem;
+}
